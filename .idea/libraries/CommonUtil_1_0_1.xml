@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="CommonUtil-1.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/90c575cdfdc84ac4312008cfab203dee1d97b974/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/90c575cdfdc84ac4312008cfab203dee1d97b974/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hengda.zwf/CommonUtil/1.0.1/1eda8f31920c4349c8ae0e54800cf7df8e93a82/CommonUtil-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

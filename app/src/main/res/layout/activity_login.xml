@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/language_select"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_login"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/iv_wechat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/selector_wechat" />
+
+        <ImageView
+            android:id="@+id/iv_qq"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/selector_qq" />
+
+        <ImageView
+            android:id="@+id/iv_webo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/selector_webo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@id/ll_login"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:orientation="vertical"
+
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/icon_center_wuda" />
+
+        <TextView
+            android:id="@+id/tv_count_used"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="已有1200人使用五大道游客服务中心APP"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:drawableLeft="@mipmap/img_phone"
+            android:drawableRight="@drawable/selector_clean"
+            android:hint="输入手机号"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:paddingRight="5dp"
+            android:textColor="@color/seekbar_color"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/seekbar_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <EditText
+                android:id="@+id/et_pwd"
+                style="@style/MyEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:digits="0123456789qwertyuioplkjhgfdsazxcvbnm_"
+                android:drawableLeft="@mipmap/img_pwd_suo"
+                android:drawableRight="@drawable/selector_clean"
+                android:hint="输入密码："
+                android:inputType="textPassword"
+                android:maxLength="13"
+                android:paddingRight="5dp"
+                android:textColor="@color/seekbar_color"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:background="@color/text_color" />
+
+            <TextView
+                android:id="@+id/tv_forget_pwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="忘记密码"
+                android:textColor="@color/text_color"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/seekbar_color" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical">
+
+            <!--<TextView-->
+            <!--android:id="@+id/iv_register_login"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!---->
+            <!--android:drawableRight="@drawable/selector_enter"-->
+            <!--android:textSize="18sp" />-->
+
+            <TextView
+                android:id="@+id/tv_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="right|center_vertical"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/selector_enter"
+                android:text="注册账号"
+                android:textColor="@color/seekbar_color"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/btn_login"
+            android:gravity="center"
+            android:text="登录"
+            android:textColor="@color/edit_phone_find"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_jump_Login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:text="跳过登录"
+            android:textColor="@color/text_color"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+
+            android:gravity="center_vertical">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1px"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@color/seekbar_color" />
+
+            <TextView
+                android:id="@+id/tv_other_Login"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="使用其他账号登录"
+                android:textSize="12sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1px"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@color/seekbar_color" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">五大道服务中心</string>
+    <!---->
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="next">跳过</string>
+    <!--我的-->
+    <string name="myself_my">个人信息</string>
+    <string name="myself_service">提供服务</string>
+    <string name="myself_traffic">交通信息</string>
+    <string name="myself_s_tel">服务电话</string>
+    <string name="myself_c_tel">投诉电话</string>
+    <!--底部词语-->
+
+    <string name="main_myself">我的</string>
+    <string name="main_news">时事</string>
+    <string name="main_speak">讲解</string>
+    <string name="main_search">发现</string>
+
+    <string name="myself_c">个人信息</string>
+    <string name="myself_s">提供服务</string>
+    <string name="myself_t">交通信息</string>
+    <!--提供服务-->
+    <string name="service_apply">以下服务皆免费提供</string>
+    <string name="service_propaganda">宣传资料</string>
+    <string name="service_travel">旅游咨询</string>
+    <string name="service_wifi">WIFI</string>
+    <string name="service_query">多媒体查询</string>
+    <string name="service_nursery">育婴室</string>
+    <string name="service_emergency">急救室</string>
+    <string name="service_umbrella">雨伞</string>
+    <string name="service_save">行李寄存</string>
+
+    <!--发现-->
+    <string name="search_website">官网</string>
+    <string name="search_wchat">市集</string>
+    <string name="search_tao">淘宝店铺</string>
+    <string name="search_ticket">门票预订</string>
+    <string name="search_park">停车位置</string>
+    <string name="search_hotel">周边酒店</string>
+    <string name="search_food">周边餐饮</string>
+    <string name="search_sugesstion">意见反馈</string>
+
+    <!--酒店和餐饮-->
+    <string name="hotel_tel">预约电话</string>
+    <string name="food_price">人均</string>
+
+    <!--讲解-->
+    <string name="speak_cap">扫条码，听讲解</string>
+    <string name="speak_cap_get">收听讲解</string>
+    <string name="cap_none">没有门票？立即 在线购买</string>
+    <string name="cap_buy">请到坐落于民园广场五大道游客服务中心一层的票务中心购买门票。</string>
+    <string name="cap_unknow">无法识别条形码？手动输入</string>
+    <string name="cap_input">请输入门票编号</string>
+
+    <!-- 弹窗 -->
+    <string name="dialog_ok">确定</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="freetour_free_walk">自由行</string>
+
+</resources>

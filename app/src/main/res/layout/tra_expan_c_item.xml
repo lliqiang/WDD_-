@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:padding="@dimen/myself_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:padding="@dimen/myself_padding"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/traffic_up"
+            android:id="@+id/iv_hide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/iv_hide"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:id="@+id/tv_titile"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:singleLine="true"
+            />
+
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/iv_hide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:id="@+id/tv_titile_m"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+    <TextView
+        android:paddingLeft="@dimen/myself_padding"
+        android:paddingRight="@dimen/myself_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_detail"
+        android:textSize="15sp"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/seartch_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/line"
+        android:orientation="horizontal"></LinearLayout>
+
+</LinearLayout>

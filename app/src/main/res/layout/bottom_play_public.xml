@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="@mipmap/bg_main_bottom">
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:clickable="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/start_padding"/>
+
+        <ImageView
+            android:src="@mipmap/pause"
+            android:id="@+id/iv_play"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:clickable="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/start_padding"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/iv_icon"
+            android:layout_toLeftOf="@+id/iv_play"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="@dimen/start_padding"
+            android:layout_marginLeft="@dimen/start_padding">
+            <TextView
+                android:layout_marginLeft="@dimen/start_padding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_name"
+                android:singleLine="true"
+                android:textSize="@dimen/news_text_s"/>
+            <SeekBar
+                android:layout_below="@+id/tv_name"
+                android:id="@+id/seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:progressDrawable="@drawable/seek_bar_progress_drawable"
+                android:thumb="@drawable/seek_bar_thumb"
+                android:thumbOffset="8dp"
+                android:maxHeight="2dp"
+                android:minHeight="2dp"/>
+            <TextView
+                android:layout_marginLeft="@dimen/start_padding"
+                android:layout_marginTop="@dimen/seartch_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_current"
+                android:text="00:00"
+                android:layout_below="@+id/seekbar"/>
+            <TextView
+                android:layout_marginTop="@dimen/seartch_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_total"
+                android:layout_marginRight="@dimen/start_padding"
+                android:layout_below="@+id/seekbar"
+                android:layout_alignParentRight="true"
+                android:text="3:00"
+                />
+        </RelativeLayout>
+
+
+</RelativeLayout>

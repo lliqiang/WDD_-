@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_nick_name"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_public"
+    tools:context="com.hengda.smart.wuda.m.ui.ac.NickNameActivity">
+
+    <include layout="@layout/public_top" />
+
+    <EditText
+        android:id="@+id/et_nickName_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:background="@mipmap/bg_input_find_pwd"
+        android:gravity="center_vertical"
+        android:hint="请输入昵称"
+        android:maxLength="6"
+        android:paddingLeft="10dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_save_nickName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/btn_login"
+        android:gravity="center"
+        android:text="保存"
+        android:textColor="@color/edit_phone_find"
+        android:textSize="16sp" />
+</RelativeLayout>

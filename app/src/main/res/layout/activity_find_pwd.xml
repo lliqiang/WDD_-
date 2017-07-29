@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_find_pwd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_public"
+    tools:context="com.hengda.smart.wuda.m.ui.ac.FindPwdActivity">
+
+    <include layout="@layout/public_top"></include>
+
+    <EditText
+        android:id="@+id/et_phone_find"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="200dp"
+        android:background="@mipmap/bg_input_find_pwd"
+        android:drawableLeft="@mipmap/img_lock_find"
+        android:drawablePadding="15dp"
+        android:gravity="center_vertical"
+        android:hint="输入手机号"
+        android:maxLines="11"
+        android:paddingLeft="10dp"
+        android:textColor="@color/seekbar_color"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_next_find"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/btn_login"
+        android:gravity="center"
+        android:text="下一步"
+        android:textColor="@color/edit_phone_find"
+        android:textSize="19sp" />
+</RelativeLayout>

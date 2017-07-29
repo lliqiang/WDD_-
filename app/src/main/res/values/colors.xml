@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="trant">#00000000</color>
+    <color name="halt_trant">#AA000000</color>
+    <color name="black">#161515</color>
+    <color name="white">#ffffff</color>
+    <color name="text_color">#984d2f</color>
+    <color name="text_login">#ecd7ce</color>
+<color name="seekbar_color">#bbbbbb</color>
+    <color name="main_zhe">#A0000000</color>
+    <color name="edit_normal">#A2A2A2</color>
+    <color name="edit_active">#808080</color>
+    <color name="edit_phone_find">#C78728</color>
+
+</resources>

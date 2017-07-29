@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_fg">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/bg_logo_bottom"/>
+
+    <LinearLayout
+        android:id="@+id/net_common"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/start_padding"
+        android:layout_marginRight="@dimen/start_padding"
+        android:layout_below="@+id/icon"
+        android:layout_marginTop="@dimen/start_padding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@mipmap/bg_myself">
+
+        <cn.iwgang.familiarrecyclerview.FamiliarRecyclerView
+            android:id="@+id/mRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            app:frv_divider="@mipmap/line"
+            app:frv_footerDividersEnabled="false"
+            app:frv_dividerHeight="1dp"
+            app:frv_layoutManager="linear"
+            app:frv_layoutManagerOrientation="vertical"
+            android:overScrollMode="never"/>
+    </LinearLayout>
+        </LinearLayout>
+    <include
+        layout="@layout/net_error_layout"></include>
+    </RelativeLayout>
+</LinearLayout>

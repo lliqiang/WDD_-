@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_free_tour"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.hengda.smart.wuda.m.ui.ac.FreeTourActivity">
+
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/mw_baidu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include
+        android:id="@+id/head_freeTour"
+        layout="@layout/public_top" />
+
+    <RelativeLayout
+        android:id="@+id/rl_auto"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/iv_autoPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="70dp"
+            android:src="@mipmap/img_auto_on" />
+
+        <TextView
+            android:id="@+id/tv_auto_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="112dp"
+            android:text="讲解"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/rl_auto"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp">
+
+        <ImageView
+            android:id="@+id/iv_route_baidu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/selector_route" />
+
+        <TextView
+            android:id="@+id/tv_route_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="42dp"
+            android:text="路线"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_add_scale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/selector_add" />
+
+        <ImageView
+            android:id="@+id/iv_remove_scale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/selector_remove" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_play_baidumap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical"
+        android:visibility="gone"
+       >
+
+        <RelativeLayout
+            android:id="@+id/rl_play_baiduMap"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:background="@color/halt_trant"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/ibtn_close_BaiDuMap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@color/trant"
+                android:padding="5dp"
+                android:src="@mipmap/map_back" />
+
+            <ImageView
+                android:id="@+id/iv_Play_BaiDuMap"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/ibtn_close_BaiDuMap"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="10dp"
+                android:scaleType="fitXY" />
+        </RelativeLayout>
+
+        <include
+            layout="@layout/bottom_play_public"></include>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_bottom_route"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:visibility="gone"
+        android:background="@mipmap/bg_bottom_route"
+       >
+        <Button
+            android:id="@+id/btn_close_bottom"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/selector_btn_close"
+            android:gravity="center"
+            android:text="关闭"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/tv_bottom_route"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="推荐路线一"
+            android:textColor="@color/text_color"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_loc_and_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+<!-- android:layout_toEndOf="@+id/ll_play_baidumap"-->
+        <ImageView
+            android:id="@+id/iv_camera_baidu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/selector_camera" />
+
+        <ImageView
+            android:id="@+id/iv_loc_baidu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/selector_loc" />
+    </RelativeLayout>
+</RelativeLayout>

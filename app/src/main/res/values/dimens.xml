@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="start_padding">10dp</dimen>
+
+    <dimen name="text_size">25sp</dimen>
+
+    <dimen name="seartch_text">5dp</dimen>
+
+    <dimen name="myself_padding">20dp</dimen>
+    <!--顶部阴影高度-->
+    <dimen name="top_tralate">-8dp</dimen>
+
+    <!---->
+    <dimen name="news_text_n">18sp</dimen>
+    <dimen name="news_text_s">12sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>

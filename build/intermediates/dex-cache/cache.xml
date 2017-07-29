@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="F:\AndroidProject\HD_TianJing_WDD\Project\HD_WuDa_03\HD_WuDa\umeng\build\intermediates\bundles\default\libs\umeng_social_api.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b3c22445dc7a9bd35d25044c06d4980d37719605">
+        <dex dex="F:\AndroidProject\HD_TianJing_WDD\Project\HD_WuDa_03\HD_WuDa\app\build\intermediates\transforms\dex\debug\folders\1000\8\umeng_social_api_734bbf43063829240d09dbecb335a95ae33dda20\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\AndroidProject\HD_TianJing_WDD\Project\HD_WuDa_03\HD_WuDa\umeng\build\intermediates\bundles\default\libs\umeng_social_shareboard.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d401b649ea88de4e1c27d08c3a60ad87c780aa59">
+        <dex dex="F:\AndroidProject\HD_TianJing_WDD\Project\HD_WuDa_03\HD_WuDa\app\build\intermediates\transforms\dex\debug\folders\1000\8\umeng_social_shareboard_faf69bb9cea564ebad0453ae35e4fb8d1c09d7df\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\AndroidProject\HD_TianJing_WDD\Project\HD_WuDa_03\HD_WuDa\app\libs\BaiduLBS_Android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fcc32440892ce9594b981d03ac2c1d9840504bc8">
+        <dex dex="F:\AndroidProject\HD_TianJing_WDD\Project\HD_WuDa_03\HD_WuDa\app\build\intermediates\transforms\dex\debug\folders\1000\2\BaiduLBS_Android_51a34daaf33b3d1ce0a5591fd9b53e0984604e2a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\AndroidProject\HD_TianJing_WDD\Project\HD_WuDa_03\HD_WuDa\umeng\build\intermediates\bundles\default\libs\umeng_social_net.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bef387d88108d232e4ad53230579bccd12a0c31d">
+        <dex dex="F:\AndroidProject\HD_TianJing_WDD\Project\HD_WuDa_03\HD_WuDa\app\build\intermediates\transforms\dex\debug\folders\1000\8\umeng_social_net_ea9eabf3e714d22fb5d1f761e6787b2fab5ab0a9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\AndroidProject\HD_TianJing_WDD\Project\HD_WuDa_03\HD_WuDa\umeng\build\intermediates\bundles\default\libs\umeng_social_tool.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8b17b7c71ac912fb54ad4df2c5d1f3b36ec95837">
+        <dex dex="F:\AndroidProject\HD_TianJing_WDD\Project\HD_WuDa_03\HD_WuDa\app\build\intermediates\transforms\dex\debug\folders\1000\8\umeng_social_tool_79daa9496086427af9c46a3193268f17833f0b76\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\AndroidProject\HD_TianJing_WDD\Project\HD_WuDa_03\HD_WuDa\umeng\build\intermediates\bundles\default\libs\SocialSDK_QQ_Simplify.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de7cb512ab9bdb87f663dd58676bc047a645ae3b">
+        <dex dex="F:\AndroidProject\HD_TianJing_WDD\Project\HD_WuDa_03\HD_WuDa\app\build\intermediates\transforms\dex\debug\folders\1000\8\SocialSDK_QQ_Simplify_6c1d0b1d9655e7b9d3ba9ba3495cd46058f6eb78\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\AndroidProject\HD_TianJing_WDD\Project\HD_WuDa_03\HD_WuDa\umeng\build\intermediates\bundles\default\libs\SocialSDK_Sina_Simplify.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de7639bda4bcd5fc10b623398ec2a8f38fe4b737">
+        <dex dex="F:\AndroidProject\HD_TianJing_WDD\Project\HD_WuDa_03\HD_WuDa\app\build\intermediates\transforms\dex\debug\folders\1000\8\SocialSDK_Sina_Simplify_c797157e838036f8420b684ffa08445db107fcaa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\AndroidProject\HD_TianJing_WDD\Project\HD_WuDa_03\HD_WuDa\umeng\build\intermediates\bundles\default\libs\umeng_shareboard_widget.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bbf940eb41c869970b3ddcf0117e9718f687af71">
+        <dex dex="F:\AndroidProject\HD_TianJing_WDD\Project\HD_WuDa_03\HD_WuDa\app\build\intermediates\transforms\dex\debug\folders\1000\8\umeng_shareboard_widget_54bda228005237f7bedf24ba25c9e6e9759fb712\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\AndroidProject\HD_TianJing_WDD\Project\HD_WuDa_03\HD_WuDa\umeng\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="42e462d81aee0c4483c80a3c1c192b62bdc9fae9">
+        <dex dex="F:\AndroidProject\HD_TianJing_WDD\Project\HD_WuDa_03\HD_WuDa\app\build\intermediates\transforms\dex\debug\folders\1000\4\classes_b858dff9416c4661892f030db87c9b2a96d80949\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\AndroidProject\HD_TianJing_WDD\Project\HD_WuDa_03\HD_WuDa\umeng\build\intermediates\bundles\default\libs\umeng-analytics-v6.0.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5f7020b90fb480374eefc392c0fdeb2dbd4d4f5f">
+        <dex dex="F:\AndroidProject\HD_TianJing_WDD\Project\HD_WuDa_03\HD_WuDa\app\build\intermediates\transforms\dex\debug\folders\1000\8\umeng-analytics-v6.0.9_9c6e8b45ca157adfac1f561dcc29a60c60255a8c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\AndroidProject\HD_TianJing_WDD\Project\HD_WuDa_03\HD_WuDa\umeng\build\intermediates\bundles\default\libs\SocialSDK_WeChat_Simplify.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f43b97a9fae094c6e8e62ddeb31f11712960e70e">
+        <dex dex="F:\AndroidProject\HD_TianJing_WDD\Project\HD_WuDa_03\HD_WuDa\app\build\intermediates\transforms\dex\debug\folders\1000\8\SocialSDK_WeChat_Simplify_a530c1b5972e0cbd86b923ec4049b67bcb0312af\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\AndroidProject\HD_TianJing_WDD\Project\HD_WuDa_03\HD_WuDa\umeng\build\intermediates\bundles\default\libs\umeng_social_shareview.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="81c3c6f51c979ff0dbf6632c0774b988aec77588">
+        <dex dex="F:\AndroidProject\HD_TianJing_WDD\Project\HD_WuDa_03\HD_WuDa\app\build\intermediates\transforms\dex\debug\folders\1000\8\umeng_social_shareview_e3b296d1a0f545fd26fe614c06fc70352f89808f\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_public">
+    <include layout="@layout/public_top"></include>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/btn_cap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/btn_cap"
+            android:padding="@dimen/myself_padding"
+            android:text="@string/speak_cap"
+            android:textColor="@color/text_login"
+            android:textSize="20sp"
+            android:layout_marginBottom="@dimen/start_padding"/>
+
+        <FrameLayout
+            android:layout_above="@+id/btn_cap"
+            android:layout_marginTop="@dimen/top_tralate"
+            android:id="@+id/fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></FrameLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

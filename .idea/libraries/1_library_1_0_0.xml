@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="1_library-1.0.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/2fbe9fafa3490152f0cc9204f7b2b01240f3b6ba/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/2fbe9fafa3490152f0cc9204f7b2b01240f3b6ba/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.example.zhouwei.library/library/1.0.0/46ed4c207e16164980f70e4c59ba858a80b5f149/library-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

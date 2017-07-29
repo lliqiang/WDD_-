@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_public"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/top"
+        layout="@layout/public_top"></include>
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:layout_marginTop="@dimen/top_tralate"
+        android:layout_marginBottom="50dp"
+        android:background="@color/trant"></WebView>
+
+    <TextView
+        android:id="@+id/tv_enter_buyticket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="30dp"
+        android:drawableRight="@drawable/selector_enter"
+        android:padding="@dimen/seartch_text"
+        android:text="@string/cap_none"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_cap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_enter_buyticket"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btn_cap"
+        android:padding="@dimen/myself_padding"
+        android:text="@string/speak_cap"
+        android:textColor="@color/text_login"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+
+    <include layout="@layout/net_error_layout" />
+</RelativeLayout>

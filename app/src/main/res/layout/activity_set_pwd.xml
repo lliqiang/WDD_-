@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_set_pwd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_public"
+
+    tools:context="com.hengda.smart.wuda.m.ui.ac.SetPwdActivity">
+
+    <include layout="@layout/public_top"></include>
+
+    <LinearLayout
+        android:id="@+id/ll_text_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="150dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="3"
+            android:background="@mipmap/bg_input_find_code"
+            android:gravity="center_vertical"
+            android:hint="输入验证码"
+            android:singleLine="true"
+            android:maxLines="8"
+            android:paddingLeft="15dp"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_resend"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="2"
+            android:background="@drawable/selector_code"
+            android:gravity="center"
+            android:text="获取验证码"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_new_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_text_pwd"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@mipmap/bg_input_find_pwd"
+        android:drawableLeft="@mipmap/img_pwd_suo"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:digits="0123456789qwertyuioplkjhgfdsazxcvbnm_"
+        android:singleLine="true"
+        android:hint="请输入新密码"
+        android:paddingLeft="10dp"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_commit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/btn_login"
+        android:gravity="center"
+        android:text="提交"
+        android:textColor="@color/edit_phone_find"
+        android:textSize="16sp" />
+</RelativeLayout>

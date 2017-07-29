@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg_map"
+    tools:context="com.hengda.smart.wuda.m.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/public_top">
+            <TextView
+                android:id="@+id/tv_top"
+                style="@style/top_text" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:layout_below="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment"
+        ></FrameLayout>
+
+
+
+    <LinearLayout
+        android:visibility="invisible"
+        android:id="@+id/lin_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:background="@color/halt_trant"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lin_pic"
+            android:orientation="vertical">
+
+
+
+            <ImageButton
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:id="@+id/ibtn_clode"
+                android:src="@mipmap/map_back"
+                android:background="@color/trant"
+                />
+            <ImageView
+                android:layout_below="@+id/ibtn_clode"
+                android:padding="10dp"
+                android:id="@+id/img_big"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <include
+            layout="@layout/bottom_play_public"></include>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/top_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_back_c"/>
+
+    <ImageButton
+        android:id="@+id/btn_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/trant"
+        android:src="@drawable/map_camer_select"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/lin_bottom"
+        />
+
+
+
+
+</RelativeLayout>

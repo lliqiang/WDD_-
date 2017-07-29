@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="AndroidPay-0.0.1">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/6d14b4b9c4071c6c44298cb8743fd316c8ff5280/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/6d14b4b9c4071c6c44298cb8743fd316c8ff5280/output/jars/libs/libammsdk.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/6d14b4b9c4071c6c44298cb8743fd316c8ff5280/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/6d14b4b9c4071c6c44298cb8743fd316c8ff5280/output/jars/libs/alipaySdk-20161009.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hengda.zwf/AndroidPay/0.0.1/79fb8566d4eac97431a1863108b78c475d53db92/AndroidPay-0.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

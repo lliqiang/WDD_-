@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.mylhyl.zxing.scanner.ScannerView
+        android:id="@+id/scanner_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_back_c"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_bottom1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:padding="@dimen/seartch_text"-->
+        <!--android:text="@string/cap_buy"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textSize="15sp"/>-->
+
+    <TextView
+
+        android:layout_alignParentBottom="true"
+        android:id="@+id/tv_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/seartch_text"
+        android:text="@string/cap_none"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/tv_unknow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/tv_bottom"
+        android:layout_marginBottom="@dimen/seartch_text"
+        android:textSize="12sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:text="@string/cap_unknow"/>
+
+    <ImageView
+        android:id="@+id/iv_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/tv_unknow"
+        android:layout_marginBottom="@dimen/seartch_text"
+        android:src="@drawable/btn_cap_input"/>
+    <TextView
+        android:id="@+id/tv_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/iv_input"
+        android:layout_marginBottom="@dimen/seartch_text"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:text="加载讲解资源"/>
+    <TextView
+        android:id="@+id/tv_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/tv_add"
+        android:layout_marginBottom="@dimen/seartch_text"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:text="扫描门票上的条形码"/>
+
+
+
+</RelativeLayout>

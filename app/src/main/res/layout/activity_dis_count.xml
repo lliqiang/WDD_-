@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dis_count"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@mipmap/bg_public"
+    android:orientation="vertical"
+    tools:context="com.hengda.smart.wuda.m.ui.ac.DisCountActivity">
+
+    <include layout="@layout/public_top" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/lv_myDiscount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:divider="@null"
+            android:dividerHeight="20dp" />
+
+        <LinearLayout
+            android:id="@+id/ll_dicount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="130dp"
+            android:gravity="center_horizontal"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/img_net_ticket" />
+
+            <TextView
+                android:id="@+id/tv_no_discount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="当前没有优惠券"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+    <include
+        layout="@layout/net_error_layout"></include>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@mipmap/bg_toast">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="20dp"
+    android:src="@mipmap/img_tip_error"/>
+    <TextView
+        android:id="@+id/tv_tip"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:maxLines="2"
+        android:layout_gravity="center_horizontal"
+        android:text="手机号或密码输入错误，请重新输入"
+        android:lineSpacingExtra="8dp"
+        android:textColor="@color/white"
+
+        />
+</LinearLayout>

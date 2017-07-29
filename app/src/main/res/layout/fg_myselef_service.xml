@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_public"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/service_text"
+        android:text="@string/service_apply" />
+
+    <ImageView
+        style="@style/search_img"
+        android:src="@mipmap/service_line" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/iv_propaganda"
+                            style="@style/search_img"
+                            android:src="@mipmap/btn_service_propaganda" />
+
+                        <TextView
+                            style="@style/service_text"
+                            android:text="@string/service_propaganda"
+                             />
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/iv_wchat"
+                            style="@style/search_img"
+                            android:src="@mipmap/btn_service_traffic" />
+
+                        <TextView
+                            style="@style/service_text"
+                            android:text="微信平台"
+                             />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/iv_wifi"
+                            style="@style/search_img"
+                            android:src="@mipmap/btn_service_wifi" />
+
+                        <TextView
+                            style="@style/service_text"
+                            android:text="@string/service_wifi"
+                            android:typeface="monospace" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/iv_query"
+                            style="@style/search_img"
+                            android:src="@mipmap/btn_service_query" />
+
+                        <TextView
+                            style="@style/service_text"
+                            android:text="@string/service_query" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/iv_nursery"
+                            style="@style/search_img"
+                            android:src="@mipmap/btn_service_nursery" />
+
+                        <TextView
+                            style="@style/service_text"
+                            android:text="@string/service_nursery" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/iv_emergency"
+                            style="@style/search_img"
+                            android:src="@mipmap/btn_service_emergency" />
+
+                        <TextView
+                            style="@style/service_text"
+                            android:text="@string/service_emergency" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/iv_umbrella"
+                            style="@style/search_img"
+                            android:src="@mipmap/btn_service_unbrella" />
+                        <TextView
+                            style="@style/service_text"
+                            android:text="@string/service_umbrella" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/iv_save"
+                            style="@style/search_img"
+                            android:src="@mipmap/btn_service_save" />
+                        <TextView
+                            style="@style/service_text"
+                            android:text="@string/service_save" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

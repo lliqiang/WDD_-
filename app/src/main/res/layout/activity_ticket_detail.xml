@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ticket_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_public"
+    android:orientation="vertical"
+    tools:context="com.hengda.smart.wuda.m.ui.ac.TicketDetailActivity">
+
+    <include layout="@layout/public_top" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="5"
+        android:background="@mipmap/bg_ticket">
+
+        <ImageView
+            android:id="@+id/iv_ticket_detial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="25dp"
+            android:src="@mipmap/img_defaut_ticket" />
+
+        <TextView
+            android:id="@+id/tv_title_ticket_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_ticket_detial"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:text="五大道博物馆"
+            android:textColor="@color/text_color"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/tv_buy_time_ticketDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title_ticket_detail"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:text="购票时间：2017.06.28 10:00"
+            android:textColor="@color/text_color"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_lost_time_ticketDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_buy_time_ticketDetail"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:text="失效时间：2017.06.28 10:00"
+            android:textColor="@color/text_color"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_textState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:text="未检票"
+
+                android:textColor="@color/text_color"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/tv_money_ticket_detail"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="¥ 24"
+                android:textColor="@color/text_color"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/tv_money_discount_ticket_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/tv_money_ticket_detail"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/tv_money_ticket_detail"
+                android:text="¥ 30"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="2"
+        android:background="@mipmap/bg_scan">
+
+        <ImageView
+            android:id="@+id/iv_scode_ticket_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+           android:layout_marginBottom="15dp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_ticket_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/btn_login"
+        android:gravity="center"
+        android:text="收听讲解"
+        android:textColor="@color/edit_phone_find"
+        android:textSize="16sp" />
+</LinearLayout>
